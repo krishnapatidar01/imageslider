@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image slider</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <main>
+        <img src="https://picsum.photos/id/236/1000/500" class="slide" alt="">
+        <img src="https://picsum.photos/id/237/1000/500" class="slide" alt="">
+        <img src="https://picsum.photos/id/238/1000/500" class="slide" alt="">
+        <img src="https://picsum.photos/id/239/1000/500" class="slide" alt="">
+    </main>
+    <div class="nav">
+        <!--    <box-icon name='chevron-left'></box-icon> -->
+        <button onclick="goPrev()"><box-icon name='chevron-left'></box-icon></button>
+        <button onclick="goNext()"><i class="fa-solid fa-arrow-right"></i></button> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
